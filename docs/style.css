@@ -1,0 +1,123 @@
+@font-face {
+  font-family: "Circe";
+  src: url("/fonts/Circe-ExtraBold.eot");
+  src: local("☺"), url("/fonts/Circe-ExtraBold.woff") format("woff"),
+    url("/fonts/Circe-ExtraBold.ttf") format("truetype"),
+    url("/fonts/Circe-ExtraBold.svg") format("svg");
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Circe";
+  src: url("/fonts/Circe-Bold.eot");
+  src: local("☺"), url("/fonts/Circe-Bold.woff") format("woff"),
+    url("/fonts/Circe-Bold.ttf") format("truetype"),
+    url("/fonts/Circe-Bold.svg") format("svg");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Circe";
+  src: url("/fonts/Circe.eot");
+  src: local("☺"), url("/fonts/Circe.woff") format("woff"),
+    url("/fonts/Circe.ttf") format("truetype"),
+    url("/fonts/Circe.svg") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Circe";
+  src: url("/fonts/Circe-Light.eot");
+  src: local("☺"), url("/fonts/Circe-Light.woff") format("woff"),
+    url("/fonts/Circe-Light.ttf") format("truetype"),
+    url("/fonts/Circe-Light.svg") format("svg");
+  font-weight: 200;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Circe";
+  src: url("/fonts/Circe-ExtraLight.eot");
+  src: local("☺"), url("/fonts/Circe-ExtraLight.woff") format("woff"),
+    url("/fonts/Circe-ExtraLight.ttf") format("truetype"),
+    url("/fonts/Circe-ExtraLight.svg") format("svg");
+  font-weight: 100;
+  font-style: normal;
+}
+.circe {
+  font-family: "Circe";
+}
+.first-bg {
+  height: 100vh;
+  background: url("http://drive.google.com/uc?export=view&id=1kccTT3fAYWYzooNXxAavBvg7Hb7QIldg")
+    no-repeat;
+  background-size: cover;
+}
+.main-bg {
+  background: linear-gradient(
+    180deg,
+    rgb(60, 78, 104) 0%,
+    rgb(66, 86, 114) 30%,
+    rgb(60, 64, 104) 70%,
+    rgba(60, 78, 104) 100%
+  );
+}
+.last-bg {
+  height: 90vh;
+  background: url("http://drive.google.com/uc?export=view&id=1vmF02OhEyMoxorCiZggYw1WlFHzxlyPz")
+    no-repeat;
+  background-size: cover;
+}
+.footer-bg {
+  background-color: rgb(44, 63, 90);
+}
+.gradient-line {
+  background: linear-gradient(
+    90deg,
+    rgb(163, 230, 157) 0%,
+    rgb(115, 179, 199) 100%
+  );
+  height: 7px;
+}
+.text-light-gray {
+  color: rgba(228, 228, 228, 0.753);
+}
+.contact-us {
+  border: none;
+  background-color: rgb(238, 244, 250);
+  padding: 6px;
+}
+.btn-clear {
+  color: white;
+  border-radius: 50px;
+  border: 1px solid transparent;
+}
+.btn-clear:hover {
+  border-color: white;
+}
+body {
+  overflow-x: hidden;
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+  -ms-overflow-style: -ms-autohiding-scrollbar;
+}
+table,
+td {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  table-layout: fixed;
+  text-align: center;
+  white-space: nowrap;
+}
+td:nth-child(1) {
+  color: rgb(110, 185, 255);
+}
+td:nth-child(2) {
+  color: rgb(187, 184, 184);
+}
+td:nth-child(3) {
+  color: rgb(53, 197, 96);
+}
