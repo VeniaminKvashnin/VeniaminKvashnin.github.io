@@ -82,6 +82,12 @@
   );
   height: 7px;
 }
+.ribbon-line {
+    height: 7px;
+    background: url("img/ribbon.png");
+    background-repeat: repeat-x;
+    overflow-y: auto;
+}
 .text-light-gray {
   color: rgba(228, 228, 228, 0.753);
 }
